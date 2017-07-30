@@ -1,9 +1,15 @@
-def devide(word):
-    re_word = ''
-    for i in  range(1, 8, 2):
-        re_word += word[i]
+#my code
+# def devide(word):
+#     re_word = ''
+#     for i in  range(1, 8, 2):
+#         re_word += word[i]
+#
+#     return(re_word)
+#
+#
+# print(devide('パタトクカシーー'))
 
-    return(re_word)
+#other
 
-
-print(devide('パタトクカシーー'))
+str = u'パタトクカシーー'
+print(str[0::2])
